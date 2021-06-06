@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/archivo.css"><!--  se llaman los estilos directamente del css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"><!--conexion con la libreria aos -->
+    <link rel="shortcut icon" href="./img/logotipo-de-playstation.png" type="image/x-icon"><!--se llama un enlace para el logotipo de la pagina-->
+    <link rel="preconnect" href="https://fonts.gstatic.com"><!--se llaman los fondos directamente desde google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"><!--Conexion con boostrapt-->
+    <title>Home</title><!--Se le da un titulo al home-->
+</head>
+<body class="body_fondoIndex">
+    <header class="cabecera">
+        <!--Menu de la pagina-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-color">
+            <a class="navbar-brand" href="./index.html">PLAYGAMES<img src="./img/espada.png" alt="imagenespada"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./views/clasesdejuegos.html">Clases de Juegos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./views/precios.html">Precios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./views/noticias.html">Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./views/contactos.html">Contactos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--Fin del menu-->
+    </header>     
+    <br>
+    <!--Carrousel de imagnenes de la pagina-->
+    <section class="carrousel">
+        <div data-aos="flip-right"> <!--Animacion con la libreria de aos-->   
+            <div class="tamaño__imagenes">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/car.jpg" class="img-fluid" alt="Responsive image">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/car2.jpg" class="img-fluid"  alt="Responsive image">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/car3.jpg" class="img-fluid"  alt="Responsive image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Fin del carrosel de imagenes-->
+    <!--Cartas del lado article con fondo Gris-->
+        <section class="trailer_Juegos">
+            <div class="p-2 flex-grow-1 bd-highlight">
+                <div class="contenedorArticle--modificado"><!--contenedor article del fondo gris-->
+                    <article>
+                        <div class="tittle">
+                            <h1 class="ml7">
+                                <span class="text-wrapper">
+                                    <span class="letters">ESTRENOS</span>
+                                </span>
+                            </h1>
+                        </div>
+                    
+                        <div class="row row-cols-1 row-cols-md-2">
+                            <div class="col mb-4">
+                                <div data-aos="fade-down-right">
+                                    <div class="cart">
+                                        <img src="./img/the-Witcher-3.jpg" class="card-img-top" alt="imagethewitcher" class="tamaño--imagen">
+                                        <div class="card--body">
+                                            <h5 class="card--title">The witcher 3</h5>
+                                            <p class="card--text">Si deseas puedes ver el trailer aquí</p>
+                                            <button class="button--modificado"><a href="https://www.youtube.com/watch?v=c0i88t0Kacs">Ver Trailer</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-4">
+                                <div data-aos="fade-down-left">
+                                    <div class="cart">
+                                        <img src="./img/ragnarok.jpg" class="card-img-top" alt="imageragnarok">
+                                        <div class="card--body">
+                                            <h5 class="card--title">god of war Ragnarok</h5>
+                                            <p class="card--text">Si deseas puedes ver el trailer aquí</p>
+                                            <button class="button--modificado"><a href="https://www.youtube.com/watch?v=7RjdHsTcrsE&t=2s">Ver Trailer</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-4">
+                                <div data-aos="fade-down-right">
+                                    <div class="cart">
+                                        <img src="./img/Resident-Evil-Village-RE8.jpg" class="card-img-top" alt="imagenresident">
+                                        <div class="card--body">
+                                            <h5 class="card--title">Resident Evil 8</h5>
+                                            <p class="card--text">Si deseas puedes ver el trailer aquí</p>
+                                            <button class="button--modificado"><a href="https://www.youtube.com/watch?v=JSapXD9vxYA">Ver Trailer</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-4">
+                                <div data-aos="fade-down-left">
+                                    <div class="cart">
+                                        <img src="./img/rush.jpg" class="card-img-top" alt="imagenrush">
+                                        <div class="card--body">
+                                            <h5 class="card--title">Rust</h5>
+                                            <p class="card--text">Si deseas puedes ver el trailer aquí</p>
+                                            <button class="button--modificado"><a href="https://www.youtube.com/watch?v=gcvDUxdmntw">Ver Trailer</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-4">
+                                <div data-aos="fade-down-right">
+                                    <div class="cart">
+                                        <img src="./img/returnal.jpg" class="card-img-top" alt="imagenresident">
+                                        <div class="card--body">
+                                            <h5 class="card--title">Returnal</h5>
+                                            <p class="card--text">Si deseas puedes ver el trailer aquí</p>
+                                            <button class="button--modificado"><a href="https://www.youtube.com/watch?v=lL2Qa0MQyuE">Ver Trailer</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-4">
+                                <div data-aos="fade-down-left">
+                                    <div class="cart">
+                                        <img src="./img/Ratchet-Clank.jpg" class="card-img-top" alt="imagenrush">
+                                        <div class="card--body">
+                                            <h5 class="card--title">Ratchet-Clank</h5>
+                                            <p class="card--text">Si deseas puedes ver el trailer aquí</p>
+                                            <button class="button--modificado"><a href="https://www.youtube.com/watch?v=9p_gg9UW9k4">Ver Trailer</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article> 
+                </div>
+            </div> 
+        </section>
+        
+        <section class="imagen_gif">
+        <!--Fin de las cartas del lado del article fondo gris-->
+        <!--Contenedor de imagenes al lado del article las cuales estan definidas como imagenes de fondo-->
+            <div class="p-2 bd-highlight" id="contenedorAside--modificado"><!--contenedor aside de imagenes-->
+                <div data-aos="flip-up"><!--conexion con la libreria aos de javascript-->
+                    <div class="contenedorAside2">
+                        <aside> </aside> 
+                    </div>
+                </div>
+            </div>    
+        </section> 
+        <section class="imagen_gif2">
+            <div class="p-2 bd-highlight" id="contenedorAsideimagen2--modificado">
+                <div data-aos="flip-down">
+                    <div class="contenedorAside3">
+                        <aside> </aside>
+                    </div>
+                </div>
+            </div>
+        </section>
+            
+    <!--fin del contenedor article contenedor de las dos imagenes de los lados-->
+    <!--Esta es la otra seccion donde estan contenidos los links de otras paginas a seguir-->
+    <section class="other_Pag">
+        <div class="color__fondo">
+            <div class="titulo__links"><!--clase del titulo-->
+                <h2>
+                    Paginas que deberias seguir
+                </h2>
+            </div>    
+        <div class="linksAsociados--modificado">
+        <!--se establecen como flexibles los tres links de las paginas que se siguen-->
+            <div class="d-flex justify-content-between">
+                <div class="primer__link">
+                    <div class="background__epicGames">
+                        <h3> EpicGames </h3>
+                        <p class="parrafo--modificado">EpicGames página de videojuegos la cual es una empresa de juegos dedicada al servicio de sus usuarios.</p>
+                        <div class="boton1--modificado">
+                            <button><a href="https://www.epicgames.com/store/es-ES/"> Saber de ella </a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="segundo__link">
+                    <div class="background__Gameshop">
+                        <h3> Gameshop </h3>
+                        <p class="parrafo--modificado"> Encargada de vender juegos y accesorios para todo tipo de consola y plataforma  te ayudará bastante.</p>   
+                        <div class="boton2--modificado">    
+                            <button><a href="https://www.gameshopvideojuegos.com/"> Saber de ella </a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+                <div class="tercer__link">
+                    <div class="background__xbox">
+                        <h3> Xbox de microsoft </h3>
+                        <p class="parrafo--modificado"> Xbox plataforma y consola creada por Microsoft, la cual permitirá a sus usuarios jugar en ella y divertirse.</p>
+                        <div class="boton3--modificado">
+                            <button><a href="https://www.xbox.com/es-CO/live"> Saber de ella </a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        <!-- se terminan de establecer los links como flexibles y termina esta seccion-->    
+    </section>
+    
+    <br>
+    
+    <!-- Footer -->
+    <footer  class="footerIndex" class="page-footer font-small special-color-dark pt-4">
+        <!-- Footer Elements -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Social buttons -->
+                    <ul class="list-unstyled list-inline text-center">
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-fb mx-1">
+                                <a href="https://www.facebook.com/"><img src="./img/facebook.png" alt="facebook"></a>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-ws mx-1">
+                                <a href="https://web.whatsapp.com/"><img src="./img/Whatsapp.png" alt="whatsapp"></a>
+                            </a>  
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-tw mx-1">
+                                <a href="https://twitter.com/?lang=es"><img src="./img/twitter.png" alt="twitter"></a>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-in mx-1">
+                                <a href="https://www.instagram.com/play.gamesshop03/?hl=es-la"><img src="./img/Instagram.png" alt="instagram"></a>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-gh mx-1">
+                                <a href="https://github.com/"><img src="./img/github.png" alt="github"></a>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-li mx-1">
+                                <a href="https://www.linkedin.com/"><img src="./img/linkedin.png" alt="linkedin"></a>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>    
+        </div>
+            
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-1">
+                <p>Términos de uso y Condiciones <br> © Derechos Reservados </p>
+            </div>
+            <!-- Copyright -->
+        
+        </footer>
+        <!-- Footer -->
+    
+    <!-- zona de scripts tanto de boostratp como de aos y conexion con javascript-->                
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>

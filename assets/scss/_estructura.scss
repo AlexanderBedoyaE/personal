@@ -1,0 +1,135 @@
+.body__fondo{
+    width: auto;
+    height: auto;
+}
+
+/*---------------Comienzo del Header-----------------------*/
+/*---------------Comienzo del Header-----------------------*/
+header {
+    .navbar-brand{
+            img{
+                width: 30px;
+            }
+        }
+        .navbar-brand:hover{
+            font-weight: bold;
+        }
+
+    #navbarTogglerDemo02{
+        .navbar-nav{
+            .nav-item{
+                .nav-link:hover{
+                    font-weight: bold;
+                }
+            }       
+        }
+    }
+
+    .dropdown-menu{
+        align-items:center;
+        justify-content: center;
+        text-align:center;
+
+        .dropdown-item{
+            font-weight: bold;
+        }
+    }
+}
+/*---------------Final del Header-----------------------------*/
+/*------------------------------------Comienzo del Footer--------------------------*/
+
+.footerIndex{
+
+    .container{
+        img{
+        width: 50px;
+        transition: transform .2s;
+        margin-left: 10px;
+        margin-top: 10px;
+        }
+    }
+
+        a img:hover{
+        transform: rotate(360deg);
+    }
+}
+
+.footerIndex{
+
+    .container{
+        img{
+        width: 50px;
+        transition: transform .2s;
+        margin-left: 10px;
+        margin-top: 10px;
+        }
+    }
+
+        a img:hover{
+        transform: rotate(360deg);
+    }
+}
+
+.footerPrecios{
+
+    .container{
+        img{
+        width: 50px;
+        transition: transform .2s;
+        margin-left: 10px;
+        margin-top: 10px;
+        }
+    }
+
+        a img:hover{
+        transform: rotate(360deg);
+    }
+}
+
+.footerClases{
+
+    .container{
+        img{
+        width: 50px;
+        transition: transform .2s;
+        margin-left: 10px;
+        margin-top: 10px;
+        }
+    }
+
+        a img:hover{
+        transform: rotate(360deg);
+    }
+}
+
+.footerNoticias{
+
+    .container{
+        img{
+        width: 50px;
+        transition: transform .2s;
+        margin-left: 10px;
+        margin-top: 10px;
+        }
+    }
+
+        a img:hover{
+        transform: rotate(360deg);
+    }
+}
+
+.footerContactos{
+
+    .container{
+        img{
+        width: 50px;
+        transition: transform .2s;
+        margin-left: 10px;
+        margin-top: 10px;
+        }
+    }
+
+        a img:hover{
+        transform: rotate(360deg);
+    }
+}
